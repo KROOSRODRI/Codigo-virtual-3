@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <h1>Formularios 3</h1>
+    </header>
+    <main>
+      <section>
+        <form>
+          <table>
+            <tbody>
+              <tr>
+                <td><label for="nombrecurso">Nombre del Curso</label></td>
+                <td><input type="text" id="nombrecurso" placeholder="ejem. vue js de cero a experto" required maxlength="20" minlength="5"/></td>
+              </tr>
+              <tr>
+                <td><label for="preciocurso">Precio del Curso</label></td>
+                <td><input type="number" id="preciocurso" placeholder="precio en soles" min="0"  max="300"/></td>
+              </tr>
+              <tr>
+                <td><label for="fechacurso">Fecha Inicio</label></td>
+                <td><input type="date" id="fechacurso" value="2020-01-01" /></td>
+              </tr>
+              <tr>
+                <td><label for="correo">Correo del Docente</label></td>
+                <td><input type="email" id="correo" placeholder="correo corporativo" value="@tecsup.edu.pe"/></td>
+              </tr>
+              <tr>
+                <td><label for="contra">Contrasena del Curso</label></td>
+                <td><input type="password" id="contra" placeholder="6 caracteres como minimo" pattern="(?=.*\d)(?=.*[a-z])(?=.*[A-Z]).{8,}" title="minimo 8 caracteres, 1 minuscula , 1 mayuscula y 1 numero" required  /></td>
+              </tr>
+              <tr>
+                <td><label for="">Elija el Turno</label></td>
+                <td>
+                  <label for="radiodia">Dia</label
+                  ><input type="radio" id="radiodia" name="turno"  />
+                  <label for="radionoche">Noche</label>
+                  <input type="radio" id="radionoche"  name="turno"  checked />
+                </td>
+              </tr>
+              <tr>
+                <td><label for="">Tipo de Pago</label></td>
+                <td>
+                  <label for="pagocuotas">EN cuotas</label
+                  ><input type="radio" id="pagocuotas" name="tipopago"  />
+                  <label for="pagodirecto">Directo</label>
+                  <input type="radio" id="pagodirecto"  name="tipopago" checked  />
+                </td>
+              </tr>
+              <tr>
+                  <td><label for="">Idiomas del Curso</label></td>
+                  <td>
+                      <label for="es">Espanol</label>
+                      <input type="checkbox" id="es" checked>
+
+                      <label for="in">Ingles</label>
+                      <input type="checkbox" id="in">
+
+                      <label for="po">Portugues</label>
+                      <input type="checkbox" id="po">
+                  </td>
+              </tr>
+              <tr>
+                  <td> <label for="nivelcurso">Nivel del Curso</label></td>
+                  <td>
+                      <select name="" id="nivelcurso">
+                          <option value="">Basico</option>
+                          <option value="">Intermedio</option>
+                          <option value="">Avanzado</option>
+                          <option value="" selected>--- Seleccione---</option>
+                      </select>
+                  </td>
+              </tr>
+              <tr>
+                  <td><label for="descripcurso">Descripcion de curso</label</td>
+                  <td>
+                      <textarea name="" id="descripcurso" cols="20" rows="5" placeholder="descripcion general del curso"></textarea>
+                  </td>
+              </tr>
+              <tr>
+                  <td><label for="videofile">video Introduccion</td>
+                  <td><input type="file" id="videofile"></td>
+              </tr>
+              <tr>
+                  <td><label for="colorcurso">Color Base del Curso</td>
+                  <td><input type="color" id="colorcurso"></td>
+              </tr>
+              <tr>
+                  <td><input type="submit" value="Crear Curso"></td>
+                  <td><input type="reset" value="Limpiar Formulario"></td>
+              </tr>
+            </tbody>
+          </table>
+        </form>
+      </section>
+    </main>
+  </body>
+</html>
