@@ -1,0 +1,53 @@
+/* importando una fuente externa */
+@import url('https://fonts.googleapis.com/css2?family=Pangolin&family=Piedra&family=Roboto:wght@100;400&display=swap');
+/* importando una fuente descargada */
+@font-face{
+    font-family: "harry";
+    src: url(./HARRYP__.TTF);
+}
+
+body {
+  background: #444;
+  color: white;
+}
+.fuenteharry
+{
+    font-family: "harry";
+    font-size: 20px;
+}
+
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+
+}
+.titulo{
+    font-family: 'Roboto', sans-serif;
+    font-weight: 100;
+}
+.parrafo1 {
+  /* tipo de letra */
+  font-family: Arial;
+  /* tamaño de letra */
+  /* por defecto es 16px en el 90% de los dispositivos */
+  font-size: 20px;
+  font: weight 400;
+}
+.parrafo2{
+    text-align: center;
+
+}
+.titulo3{
+    font-family: 'Roboto', sans-serif;
+    letter-spacing: 10px;
+    word-spacing: 20px;
+    font-size: 35px;
+    text-align: center;
+}
+.subrayado{
+    text-decoration: line-through;
+}
+a{
+     text-decoration: none;
+     color: white;
+}

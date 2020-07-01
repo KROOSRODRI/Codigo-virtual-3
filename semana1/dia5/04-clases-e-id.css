@@ -1,0 +1,38 @@
+section { 
+    background: lightgreen;
+ }
+.formulario-personal
+{ 
+    background: coral ;
+}
+/* todos los elementos input que esten dentro de un section - o de formulario */
+.formulario-personal input
+{ 
+    border-radius: 18px;
+    
+}
+.formulario-externo
+{ 
+    background: khaki;
+}
+section { 
+   background: lightpink;
+}
+
+.letra-moradasection { 
+    color: purple;
+ }
+ .subrayadoclass{ 
+    text-decoration: underline;
+ }
+
+ #inputgoogle{ 
+     background: grey;
+
+}
+#inputgoogle{ 
+    background: green;
+
+}
+
+

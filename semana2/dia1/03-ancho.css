@@ -1,0 +1,48 @@
+* {
+  margin: 0;
+  /* sirve para cuando a un elemento se le qcoloque padding 
+  y/o border,estos,no afectan en el ancho establecido para dicho 
+  elemento */
+  box-sizing: border-box;
+}
+body {
+  background-color: #666;
+  color: white;
+}
+section {
+  width: 500px;
+  background-color: teal;
+}
+.ancho-100 {
+  width: 200px;
+  background-color: #222;
+  height: 100px;
+  /* overflow: hidden;*/
+  overflow: hidden;
+  overflow: scroll;
+ 
+}
+.noticias {
+  /* margin: 20px; */
+  /* margen a todos los lados del elemento */
+  margin-bottom: 20px;
+}
+.imagenes {
+  margin-top: 20px;
+  /* border 1px splid green */
+  padding: 30px;
+}
+.articulos{
+    width: 100%;
+    height: 200px;
+    margin-top: 50px;
+    border: 1px solid yellow;
+}
+.articulos p{
+    width: 100px;
+    height: 100px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: #888;
+    margin-top: 50px;
+}
