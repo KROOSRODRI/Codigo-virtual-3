@@ -45,4 +45,16 @@ section {
     margin-right: auto;
     background-color: #888;
     margin-top: 50px;
+    /* margen a todos los lados de 10px */
+    /* margin:10px */
+
+    /* margen superior e inferior de 10px
+      y margen de los costados de 20 px*/
+      /* margin: 10px 20px */
+
+      /* en sentido de las manecillas del reloj */
+      /*  superior 5px
+      derecha 10px
+      inferior 15px
+      izquierda 20px */
 }
