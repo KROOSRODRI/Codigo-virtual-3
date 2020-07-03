@@ -1,0 +1,56 @@
+*{
+margin:0;
+box-sizing:border-box;
+}
+.section{
+    width:500px;
+    height:500px;
+    border-radius: 40px;
+    box-shadow: #bbb 0px 0px 20px;
+    margin: 50px auto 0 auto;
+    transition: all  0.5s ease-in-out;
+    overflow: hidden;
+}
+.section:hover{
+    border-radius: 5px;
+}
+
+.cuadrado{
+    width: 100px;
+    height: 100px;
+    background-color: crimson;
+    transition: all 1.5s ease;
+}
+/* cuando se este haciendo over en el sectio
+el elemento interno que lleve la clase  cuadrado
+sufrira los cambios */
+.section:hover .cuadrado{
+    border-radius: 50%;
+    margin: 0 0 0 200px;
+
+}
+.section1{
+    width:500px;
+    height:500px;
+    border-radius: 40px;
+    box-shadow: #bbb 0px 0px 20px;
+    margin: 50px auto 0 auto;
+    transition: all  0.5s ease-in-out;
+    overflow: hidden;
+    transition: all 1.5s ease-in;
+}
+
+.persiana{
+    background-color: crimson;
+    transition: all 1.5s ease-in-out;
+    height: 0px;
+}
+.section2:hover
+{
+    box-shadow: rgb(255, 158, 171) 0px 0px 20px;
+}
+.section1:hover .persiana{
+    height: 500px;
+
+    
+}
