@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+  padding: 0;
+}
+body{
+    background-color: crimson;
+}
+/* para todas las pantallas de dispositivos que ademas
+ tengan un maximo de ancho de 1014px */
+@media screen and (max-width: 1024px) {
+    body{
+        background-color: darkgray;
+    }
+}
+@media screen and (max-width: 768px) {
+    body{
+        background-color: darkgoldenrod;
+    }
+}
+@media screen and (max-width: 480px)
+{
+    body{
+        background-color: darkkhaki;
+    }
+}
+@media screen and (max-width: 320px)
+{
+    body{
+        background-color: goldenrod;
+    }
+}
